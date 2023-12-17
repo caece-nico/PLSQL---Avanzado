@@ -221,7 +221,7 @@ Dentro de un bloque PLSQL no se puede usar ALTER, DROP o CREATE
 Pero como DBMS_UTILITY es un metodo se puede usar en un BEGIN END;
 
 
-## DBMS_UTILITY.COMPLIE_SCHEMA
+## DBMS_UTILITY.COMPILE_SCHEMA
 
 Podemos compilar todo el SCHEMMA.
 
