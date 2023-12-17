@@ -226,7 +226,7 @@ Pero como DBMS_UTILITY es un metodo se puede usar en un BEGIN END;
 Podemos compilar todo el SCHEMMA.
 
 ```sql
-DBMS_UTILITY.COMPLIE_SCHEMA('HR', COMPILE_ALL=> FALSE, REUSE_SETTINGS=FALSE);
+DBMS_UTILITY.COMPILE_SCHEMA('HR', COMPILE_ALL=> FALSE, REUSE_SETTINGS=FALSE);
 ```
 
 COMPILE_ALL -> Pasando False solo compila lo que es invalido.
